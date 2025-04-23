@@ -19,7 +19,7 @@ int main() {
     cin >> Userguess;
 
     //Finding out whether the guess is even or odd
-    string Random = (x % 2 == 0) ? "even" : "odd";
+    string Random = (x % 2 == 0) ? "EVEN" : "ODD";
 
     //displaying the random genarated number
     cout << "The Genarated number is: " << x << endl;
